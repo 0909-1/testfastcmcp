@@ -40,7 +40,7 @@ class MCPClient:
         
         # 初始化OpenAI连接
         self.llm_client = AsyncOpenAI(
-            api_key="sk-7d8593054fb647578f727325a07fc7cb",
+            api_key="",
             base_url="https://api.deepseek.com/v1"
         )
         # await self.llm_client.__aenter__() //openai不需要使用__aenter__。
