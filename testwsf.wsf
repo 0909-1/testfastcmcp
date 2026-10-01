@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<job id="MOTWTest">
+  <script language="VBScript">
+    Set shell = CreateObject("WScript.Shell")
+    shell.Run "cmd.exe /c echo MOTW test - harmless (WSF) &amp; pause", 1, True
+  </script>
+</job>
